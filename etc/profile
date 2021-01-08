@@ -56,5 +56,6 @@ $ '
 
 alias clear=clsb
 
-cd "$HOME"
+cd "$PROJECT_DIR"
+bash ./scripts/build.sh | tee "$PROJECT_DIR"/build.log
 
